@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Logo{
+    position: relative;
+    top: 2%;
+    left: 2%;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+
+.Login {
+    align-items: center;
+    appearance: none;
+    background-color: #00B4CC;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#00B4CC 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 12px;
+    position: absolute;
+    top: 2%;
+    left: 83%;
+  }
+  
+  .Login:focus {
+    box-shadow: #00B4CC 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+  }
+  
+  .Login:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .Login:active {
+    box-shadow: #00B4CC 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+  .Språk {
+    align-items: center;
+    appearance: none;
+    background-color: #00B4CC;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#00B4CC 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 12px;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+  }
+  
+  .Språk:focus {
+    box-shadow: #00B4CC 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+  }
+  
+  .Språk:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .Språk:active {
+    box-shadow: #00B4CC 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column count based on screen size */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; /* Increase max-width to allow multiple items per row */
+    margin: 0 auto;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Use 100% width to ensure items are responsive */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .item-details {
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .product-description {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .price-add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-right: 10px;
+  }
+  
+  .add-to-cart-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #2980b9;
+  }
+  

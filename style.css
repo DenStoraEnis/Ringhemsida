@@ -1,0 +1,654 @@
+.Logo{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+
+.Login {
+    align-items: center;
+    appearance: none;
+    background-color: #00B4CC;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#00B4CC 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 12px;
+    position: absolute;
+    top: 2%;
+    left: 83%;
+  }
+  
+  .Login:focus {
+    box-shadow: #00B4CC 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+  }
+  
+  .Login:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .Login:active {
+    box-shadow: #00B4CC 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+  .Språk {
+    align-items: center;
+    appearance: none;
+    background-color: #00B4CC;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#00B4CC 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 12px;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+  }
+  
+  .Språk:focus {
+    box-shadow: #00B4CC 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+  }
+  
+  .Språk:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00B4CC 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .Språk:active {
+    box-shadow: #00B4CC 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 0%
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Line{
+    width: 1260px;
+    height: 5px;
+    position: absolute;
+    top: 15%;
+    background-color: #00B4CC;
+   
+
+}
+
+.Line2{
+    width: 1260px;
+    height: 5px;
+    position: absolute;
+    top: 24%;
+    background-color: #00B4CC;
+   
+
+}
+
+
+
+
+.Line3{
+  width: 1260px;
+  height: 5px;
+  position: absolute;
+  top: 120%;
+  background-color: #00B4CC;
+ 
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.item {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center item horizontally */
+  padding: 20px;
+  max-width: 300px; /* Limit the width of the item */
+  position: absolute;
+  top: 125%;
+  left: 6%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.item-details {
+  text-align: center; /* Center text */
+}
+
+.product-name {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.product-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price-add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center button */
+}
+
+.product-price {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-right: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #2980b9;
+}
+
+#animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.cart-item-animation {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('C:\Users\enis.sulejmani\Desktop\Rikigt ringhemsida\images\medivalring.jpg') no-repeat center center;
+  background-size: contain;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Second Shit */ 
+
+.item2 {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center item horizontally */
+  padding: 20px;
+  max-width: 300px; /* Limit the width of the item */
+  position: absolute;
+  top: 125%;
+  left: 37%;
+}
+
+.product-image2 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.item-details2 {
+  text-align: center; /* Center text */
+}
+
+.product-name2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.product-description2 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price-add-to-cart2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center button */
+}
+
+.product-price2 {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-right: 10px;
+}
+
+.add-to-cart-button2 {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover2 {
+  background-color: #2980b9;
+}
+
+/* Third Shit */
+
+.item3 {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center item horizontally */
+  padding: 20px;
+  max-width: 300px; /* Limit the width of the item */
+  position: absolute;
+  top: 125%;
+  left: 68%;
+}
+
+.product-image3 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.item-details3 {
+  text-align: center; /* Center text */
+}
+
+.product-name3 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.product-description3 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price-add-to-cart3 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center button */
+}
+
+.product-price3 {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-right: 10px;
+}
+
+.add-to-cart-button3 {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover3 {
+  background-color: #2980b9;
+}
+
+/* new shit */
+
+
+
+footer.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  position: absolute;
+  width: 100%;
+  top: 250%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+}
+
+.footer-left h3, .footer-right h3 {
+  font-size: 20px;
+}
+
+.footer-left p, .footer-right ul {
+  margin: 10px 0;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-logo {
+  width: 100px; /* Adjust size as needed */
+  margin-top: 10px; /* Add spacing */
+}
+
+.payment-methods {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.payment-methods li:last-child {
+  margin-right: 0;
+}
+
+.category-bar {
+  position: absolute;
+  top: 17%;
+  left: 0%;
+  width: 100%;
+  background-color: 00B4CC;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 999; /* Ensure the category bar is above other content */
+}
+
+.category-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-bar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.category-bar ul li a {
+  text-decoration: none;
+  color: #00B4CC;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-bar ul li a:hover {
+  background-color: #00B4CC;
+}
+
+.content {
+  padding-top: 50px; /* Adjust this value to match the height of your category bar */
+}
+
+/* testing */
+
+.discount-image {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  width: 500px; /* Adjust the width of the image container as needed */
+  height: 300px; /* Adjust the height of the image container as needed */
+  border-radius: 30px;
+}
+
+.discount-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 47%;
+  left: 10%;
+  border-radius: 30px;
+}
+
+.discount-text {
+  position: absolute;
+  top: 100%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.discount-text h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.discount-text p {
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00B4CC;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+/*  -----   */
+.couple-image {
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  width: 500px; /* Adjust the width of the image container as needed */
+  height: 300px; /* Adjust the height of the image container as needed */
+  border-radius: 30px;
+}
+
+.couple-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 47%;
+  left: 10%;
+  border-radius: 30px;
+}
+
+.couple-text {
+  position: absolute;
+  top: 100%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.couple-text h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.couple-text p {
+  font-size: 16px;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00B4CC;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn2:hover {
+  background-color: #0056b3;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 75%;
+  top: 3%;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: rgb(166, 33, 33);
+  color: white;
+  border-radius: 50%;
+  padding: 0.1em 0.3em;
+  font-size: 0.4em;
+}
+
